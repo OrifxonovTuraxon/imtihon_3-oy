@@ -1,0 +1,111 @@
+.klient{
+    padding-bottom: 64px;
+}
+.klient__title {
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 40px;
+}
+
+.klient__mini-title {
+    color: #363738;
+    font-family: "Exo 2";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 30px;
+}
+
+.klient__item-title {
+    color: #363738;
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 16px;
+}
+
+.klient__text {
+    color: #6B6B6C;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.klient__box {
+    background-color: #0B7572;
+    padding: 32px 15px;
+    margin-bottom: 64px;
+}
+
+.klient__item {
+  
+    padding: 24px 24px 32px 47px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+
+    &:not(:last-child) {
+        margin-bottom: 14px;
+
+    }
+}
+.klient__img2{
+    display: none;
+}
+.klient__mini-img{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .klient__img1{
+        display: none;
+    }
+    .klient__img2{
+        display: block;
+    }
+    .klient__mini-img{
+        display: block;
+        width: 331px;
+    }
+    .klient__item{
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+    }
+    .klient__title{
+        color: #FFF;
+font-family: "Exo 2";
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; 
+    }
+    .klient__item-title{
+        color:  #363738;
+font-family: "Exo 2";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; 
+&::after{
+    content: "";
+    width: 92.975px;
+height: 3px;
+background-color:#FFCE50;
+display: block;
+margin-top: 24px;
+}
+    }
+}
+@media screen and (min-width:1440px) {
+    .klient__box{
+        display: flex;
+        justify-content: space-between;
+    }
+}
